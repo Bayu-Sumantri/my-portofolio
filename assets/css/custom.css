@@ -7,10 +7,12 @@
   background: linear-gradient(to right, #4e54c8, #8f94fb);
 
 }
-.social-networks{
+
+.social-networks {
   color: white;
 }
-.social-networks:hover{
+
+.social-networks:hover {
   border-top: 1px double white;
 }
 
@@ -112,7 +114,12 @@
 
 /* Large hover state for animation */
 
-#skills:hover #one, #skills:hover #two, #skills:hover #three, #skills:hover #four, #skills:hover #five, #skills:hover #six {
+#skills:hover #one,
+#skills:hover #two,
+#skills:hover #three,
+#skills:hover #four,
+#skills:hover #five,
+#skills:hover #six {
   animation: grow 1.4s .3s cubic-bezier(0.39, 0.07, 0.16, 0.97);
 }
 
@@ -122,11 +129,12 @@
   0% {
     width: 0;
   }
+
   100% {
     transform: 100%;
   }
 }
 
-.color-footer{
+.color-footer {
   background-color: #8c91f9;
 }

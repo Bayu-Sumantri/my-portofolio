@@ -1,13 +1,13 @@
-$(document).ready(function() {
+$(document).ready(function () {
   var teks_out = prompt("bisa masukkan nama kamu");
-  if (teks_out){
-      if (teks_out.length <= 8) {
-        teks_out = teks_out.toUpperCase()
-        hacil = teks_out
-      }else{
-          hacil = "THERE"
-      }
-  }else{
+  if (teks_out) {
+    if (teks_out.length <= 8) {
+      teks_out = teks_out.toUpperCase()
+      hacil = teks_out
+    } else {
+      hacil = "THERE"
+    }
+  } else {
     hacil = "THERE"
   }
 
@@ -32,9 +32,11 @@ $(document).ready(function() {
     backSpeed: 0,
   });
 
-  $("#myToTop").click(function() {
-  $("html, body").animate({ scrollTop: 0 }, "slow");
-  return false;
-});
+  $("#myToTop").click(function () {
+    $("html, body").animate({
+      scrollTop: 0
+    }, "slow");
+    return false;
+  });
 
 });

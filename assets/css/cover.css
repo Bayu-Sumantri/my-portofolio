@@ -14,7 +14,8 @@ a:hover {
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
 }
@@ -29,8 +30,11 @@ html {
   background-color: #333;
 }
 
-body, .form-control, .btn, .input-group-text {
-	font-size: 0.875rem;
+body,
+.form-control,
+.btn,
+.input-group-text {
+  font-size: 0.875rem;
 }
 
 body {
@@ -38,18 +42,21 @@ body {
   display: flex;
   color: black;
 
-/*
+  /*
   background-image: url(../.././landing-page.png);
   */
-  background: #fff200; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #fff200, #fff200); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #fff200, #fff200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fff200;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #fff200, #fff200);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #fff200, #fff200);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 
-/*
+  /*
   background: url(/apps/pickordrop/wahana/images/landing-page.png) center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -81,8 +88,9 @@ body {
   color: black;
   /* border-bottom: .25rem solid transparent; */
 }
-.nav-masthead .nav-mastlink{
-  padding : 10px;
+
+.nav-masthead .nav-mastlink {
+  padding: 10px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -119,6 +127,7 @@ body {
   .masthead-brand {
     float: left;
   }
+
   .nav-masthead {
     float: right;
   }
@@ -129,12 +138,13 @@ body {
  * Cover
  */
 .cover {
-/*
+  /*
   padding: 0 1.5rem;
   */
 
   padding: 0 0;
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
@@ -155,35 +165,34 @@ body {
 
 }
 
-.card-body {
-
-}
+.card-body {}
 
 /**
   navbar <= 300
 */
-.dark-nav{
-  background-color: rgba(0,0,0, 0.5);
+.dark-nav {
+  background-color: rgba(0, 0, 0, 0.5);
   transition: 1s;
 
 }
-.dark-link{
+
+.dark-link {
   color: white;
 
 }
-.color-yellow{
+
+.color-yellow {
   background: #fff200;
 }
 
 /*
   Custom input text
 */
-.form-control{
+.form-control {
   border-radius: 0px;
 }
-.form-control:focus{
 
-}
+.form-control:focus {}
 
 /*
 To top butotn
