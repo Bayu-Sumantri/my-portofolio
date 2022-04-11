@@ -5,10 +5,10 @@ $(document).ready(function () {
       teks_out = teks_out.toUpperCase()
       hacil = teks_out
     } else {
-      hacil = "THERE"
+      hacil = "HUMAN"
     }
   } else {
-    hacil = "THERE"
+    hacil = "HUMAN"
   }
 
 
