@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Array yang berisi dua pilihan nama
-    var names = ["bayu sumantri", "blackcat"];
+    var names = ["bayu sumantri", "blackcat", "HanBay😆😅"];
     // Memilih secara acak satu dari dua nama tersebut
     var randomIndex = Math.floor(Math.random() * names.length);
     var HASIL = names[randomIndex];
