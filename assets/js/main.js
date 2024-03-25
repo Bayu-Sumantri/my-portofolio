@@ -1,17 +1,9 @@
 $(document).ready(function() {
-    var teks_out = prompt("bisa masukkan nama kamu");
-    if (teks_out) {
-        if (teks_out.length <= 8) {
-            teks_out = teks_out.toUpperCase()
-            HASIL = teks_out
-        } else {
-            HASIL = "HUMAN"
-        }
-    } else {
-        HASIL = "HUMAN"
-    }
-
-
+    // Array yang berisi dua pilihan nama
+    var names = ["bayu sumantri", "blackcat"];
+    // Memilih secara acak satu dari dua nama tersebut
+    var randomIndex = Math.floor(Math.random() * names.length);
+    var HASIL = names[randomIndex];
 
     $('.slider').slider({
         indicators: false,
@@ -19,14 +11,14 @@ $(document).ready(function() {
     $("#date").text(Date());
     var typed = new Typed('.element', {
         strings: ["<h3>HALLO GUYS</h3><h5 class='light grey-text text-lighten-3 element'>please teach me how to code correctly and well</h5>"],
-        typeSpeed: 40,
+        typeSpeed: 4,
         fadeOut: true,
         cursorChar: '',
     });
 
     var typed = new Typed('.there', {
         strings: [HASIL],
-        typeSpeed: 40,
+        typeSpeed: 4,
         startDelay: 3500,
         cursorChar: '_',
         backSpeed: 0,
